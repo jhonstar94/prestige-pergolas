@@ -1,0 +1,293 @@
+@media screen and (max-width: 1250px)
+{
+  .Album .Viaje .Texto
+  {
+    transform: translateY(calc(270px));
+    display: inline-block;
+    height: 50%;
+    /*min-height: 100px;*/
+    max-height: 230px;
+    background-color: rgba(0,0,0,.4);
+    /*text-align: left;*/
+  }
+  .Album .Viaje .Texto .Parrafo
+  {
+    opacity: 1;
+  }
+  .YouTube
+  {
+    height: 750px;
+  }
+  .YouTube .Fondo .Azul
+  {
+    width: 100%;
+    height: 450px;
+  }
+  .YouTube .Fondo .Gris
+  {
+    width: 100%;
+    height: 300px;
+    transform: translate(0vw,0%);
+  }
+  .YouTube .Texto
+  {
+    margin-top: 30px;
+    width: 100vw;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .YouTube .Texto .Centrar
+  {
+    width: 90vw;
+    max-width: 600px;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .YouTube .Video
+  {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 450px;
+    display: flex;
+    justify-content: center;
+  }
+  .YouTube .Video .Link
+  {
+    width: 90vw;
+    transform: translateY(-50%) translateX(0%);
+  }
+}
+@media screen and (max-width: 940px)
+{
+  .Articulo .Contenido .Titulo
+  {
+    font-size: 1.7em;
+    max-width: 400px;
+  }
+  .Articulo .Contenido .Parrafo
+  {
+    left: 0;
+    width: 600px;
+    padding: 90px 30px 30px 30px;
+  }
+  .Testimonials .Titulo
+  {
+    left: 120px;
+    width: 300px;
+    height: 130px;
+    font-size: 1.2em;
+    padding-top: 40px;
+  }
+  .Testimonials .Subtitulo
+  {
+    left: -120px;
+    width: 350px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  .Testimonials .Titulo .Icono,
+  .Testimonials .Subtitulo .Icono
+  {
+    top: 25px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 800px)
+{
+  .VideoContent .Titulo
+  {
+    font-size: 2em;
+  }
+  .Youtube
+  {
+    height: auto;
+    min-height: 800px;
+    position: relative;
+  }
+  .Youtube .Seccion
+  {
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    padding-right: 10px;
+    text-align: right;
+  }
+  .Youtube .Video
+  {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    margin-bottom: 50px;
+  }
+  .Testimonials .Testimonio
+  {
+    width: 300px;
+    /*margin-right: 10px;*/
+  }
+}
+@media screen and (max-width: 654px)
+{
+  .Articulo .Contenido .Titulo
+  {
+    font-size: 1.5em;
+    max-width: 300px;
+  }
+  .Articulo .Contenido .Parrafo
+  {
+    width: 400px;
+  }
+  .Botonera .Centrar .Boton
+  {
+    font-size: 1em;
+  }
+  .YouTube .Texto .Centrar
+  {
+    max-width: 500px;
+  }
+  .YouTube .Texto .Centrar .Contenedor .Titulo
+  {
+    font-size: 2em;
+  }
+  .YouTube .Video .Link
+  {
+    width: 90vw;
+    height: 320px;
+  }
+  .Testimonials .Titulo
+  {
+    left: 120px;
+    width: 270px;
+    height: 100px;
+    font-size: 1.1em;
+    padding-top: 30px;
+    padding-right: 20px;
+  }
+  .Testimonials .Subtitulo
+  {
+    left: -100px;
+    width: 300px;
+    font-size: 1.1em;
+    top: 80px;
+    margin-bottom: 30px;
+  }
+  .Testimonials .Titulo .Icono,
+  .Testimonials .Subtitulo .Icono
+  {
+    width: 30px;
+    height: 30px;
+  }
+  .Testimonials .Titulo .Icono
+  {
+    top: 15px;
+    right: 15px;
+  }
+  .Testimonials .Subtitulo .Icono
+  {
+    top: 27px;
+    right: 25px;
+  }
+  .Testimonials .Botonera
+  {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 603px)
+{
+  .Testimonials .Testimonio
+  {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 573px)
+{
+  .Testimonials .Texto
+  {
+    margin-bottom: 50px;
+  }
+  .Testimonials .Titulo
+  {
+    left: 50px;
+    width: 200px;
+    height: 150px;
+    font-size: 1.5em;
+    padding-top: 30px;
+  }
+  .Testimonials .Subtitulo
+  {
+    right: 50px;
+    top: 110px;
+    width: 200px;
+    height: 130px;
+    line-height: 1.7em;
+    padding: 15px;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+  }
+  .Testimonials .Titulo .Icono
+  {
+    top: 25px;
+    right: 15px;
+  }
+  .Testimonials .Subtitulo .Icono
+  {
+    top: 82px;
+    right: 85px;
+  }
+}
+@media screen and (max-width: 420px)
+{
+  .Viajes .Titulo
+  {
+    font-size: 1.7em;
+  }
+  .Viajes .Subtitulo
+  {
+    font-size: 1.1em;
+  }
+  .Articulo .Contenido .Parrafo
+  {
+    width: 90vw;
+  }
+  .YouTube
+  {
+    height: 600px;
+  }
+  .YouTube .Fondo .Azul
+  {
+    height: 350px;
+  }
+  .YouTube .Fondo .Gris
+  {
+    height: 250px;
+  }
+  .YouTube .Texto .Centrar
+  {
+    /*padding-left: 10px;*/
+    max-width: 300px;
+  }
+  .YouTube .Texto .Centrar .Contenedor .Titulo
+  {
+    font-size: 1.5em;
+  }
+  .YouTube .Video .Link
+  {
+    width: 90vw;
+    height: 250px;
+    transform: translateY(-75%) translateX(0%);
+  }
+}
+@media screen and (max-width: 403px)
+{
+  .Testimonials .Titulo
+  {
+    left: -50px;
+  }
+  .Testimonials .Subtitulo
+  {
+    top: -40px;
+    left: 40px;
+  }
+}
